@@ -3,19 +3,22 @@
 
 class Node
 {
-private:
-    int Key;
-
-    Node* Left; 
-    Node* Right;
-
 public:
-    Node(int Key);
+    int key;
+    Node* left; 
+    Node* right;
+
+    Node(int key);
 };
 
 class BST
 {
-    
+private:
+    Node* root;
+
+public:
+    BST();
+    void add(int key);
 };
 
 #endif
