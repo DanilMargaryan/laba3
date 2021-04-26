@@ -24,10 +24,17 @@ void BST::add(int key)
     else
     {
         while (ptr != nullptr)
+        {
             if (n.key <= ptr->key)
                 ptr = ptr->left;
             else 
                 ptr = ptr->right;
-        Node   
+        }
+        ptr = &n;   
     }
+}
+
+void BST::print()
+{
+    
 }

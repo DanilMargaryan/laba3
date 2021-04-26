@@ -19,6 +19,7 @@ private:
 public:
     BST();
     void add(int key);
+    void print();
 };
 
 #endif
